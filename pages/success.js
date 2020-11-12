@@ -32,7 +32,7 @@ export default () => {
   });
 
   return (
-    <Layout title="Success!">
+    <Layout title="Succeed!">
       <Container>
         <Confetti width={width} height={height} numberOfPieces={450} />
         <Title>congrats!</Title>
