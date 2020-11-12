@@ -35,7 +35,7 @@ export default () => {
     <Layout title="Success!">
       <Container>
         <Confetti width={width} height={height} numberOfPieces={450} />
-        <Title>congrats!</Title>
+        <Title>congratulations!</Title>
         <Message>Stripe has successfully processed your payment</Message>
       </Container>
     </Layout>
