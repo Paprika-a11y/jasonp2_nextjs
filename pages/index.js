@@ -14,7 +14,7 @@ const MainPage = props => {
   const remDonut = () => setNumDonuts(num => Math.max(1, num - 1));
 
   return (
-    <Layout title="Welcome to Donut Shop">
+    <Layout title="Donut Shop">
       <Row>
         <DonutShop
           onAddDonut={addDonut}
@@ -26,6 +26,7 @@ const MainPage = props => {
         price={getDonutPrice(numDonuts)}
         onSuccessfulCheckout={() => Router.push("/success")}
       />
+      <Message>Welcome to Donut Shop</Message>
     </Layout>
   );
 };
